@@ -1,0 +1,38 @@
+apply plugin: 'java'
+apply plugin: 'maven'
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+group = 'com.github.ikidou'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testCompile 'junit:junit:4.12'
+}
+
+task sourcesJar(type: Jar, dependsOn: classes) {
+    classifier = 'sources'
+    from sourceSets.main.allSource
+}
+
+artifacts {
+    archives sourcesJar
+}
+
+install {
+    repositories.mavenInstaller {
+        pom.project {
+            licenses {
+                license {
+                    name 'The Apache Software License, Version 2.0'
+                    url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    distribution '用Builder生成泛型，generics type builder'
+                }
+            }
+        }
+    }
+}
