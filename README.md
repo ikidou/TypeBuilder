@@ -45,9 +45,15 @@ Type type = TypeBuilder
         .endSubType() //结束 List<String> 部分
         .build();
 ```
+#### Download
+Get it from [JitPack repository](https://jitpack.io/#ikidou/TypeBuilder/1.0) use Gradle or Maven.  
+Download [JAR](https://jitpack.io/com/github/ikidou/TypeBuilder/1.0/TypeBuilder-1.0.jar) and
+[Source](https://jitpack.io/com/github/ikidou/TypeBuilder/1.0/TypeBuilder-1.0-sources.jar)
+
+
 
 #### 有什么用
-**并没有什么卵用**，可能唯一个用途就是当你无法通过子类去获取泛型时，不用写一长串的嵌套。
+当你无法通过子类去获取泛型时，不用写一长串的嵌套或去实现部分Type接口。
 
 License
 -------
