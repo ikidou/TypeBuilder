@@ -48,8 +48,7 @@ Type type = TypeBuilder
 #### Download
 Get it from [JitPack repository](https://jitpack.io/#ikidou/TypeBuilder/1.0) use Gradle or Maven.  
 Download [JAR](https://jitpack.io/com/github/ikidou/TypeBuilder/1.0/TypeBuilder-1.0.jar) and
-[Source](https://jitpack.io/com/github/ikidou/TypeBuilder/1.0/TypeBuilder-1.0-sources.jar)
-
+[Source](https://jitpack.io/com/github/ikidou/TypeBuilder/1.0/TypeBuilder-1.0-sources.jar)  
 
 
 #### 有什么用

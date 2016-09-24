@@ -4,12 +4,14 @@ local.properties
 
 .gradle
 
-.idea/workspace.xml
-
-.idea/gradle.xml
-
-.idea/libraries
+.idea
 
 .Trash-*
 
 *~
+
+*.iml
+
+*.iws
+
+*.ipr
