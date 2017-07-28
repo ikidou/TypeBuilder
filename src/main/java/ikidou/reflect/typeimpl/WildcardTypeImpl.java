@@ -71,9 +71,9 @@ public class WildcardTypeImpl implements WildcardType {
         }
     }
 
-    private String getTypeString(String suffix, Class[] type) {
+    private String getTypeString(String prefix, Class[] type) {
         StringBuilder sb = new StringBuilder();
-        sb.append(suffix);
+        sb.append(prefix);
 
         for (int i = 0; i < type.length; i++) {
             if (i != 0) {
